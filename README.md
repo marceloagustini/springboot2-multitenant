@@ -1,6 +1,6 @@
 # MultiTenant Springboot 2 with Spring Security
 
-Starter project for an multitenant solution
+Starter project for multitenant solution
 
 ## Installation
 
