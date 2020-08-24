@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pdv
+    username: postgres
+    password: pass
+    driver-class-name: org.postgresql.Driver
+  jackson:
+    time-zone: America/Argentina/Buenos_Aires
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        ddl-auto: create
+    show-sql: false
+
+
+#tenants
+tenants:
+  datasources:
+    pdv:
+      jdbcUrl: jdbc:postgresql://localhost:5432/pdv
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: pass
+    pdv2:
+      jdbcUrl: jdbc:postgresql://localhost:5432/pdv2
+      driverClassName: org.postgresql.Driver
+      username: postgres
+      password: pass
