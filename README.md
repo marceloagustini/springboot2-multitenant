@@ -4,7 +4,7 @@ Starter project for multitenant solution
 
 ## Installation
 
-Use maven for install and runn
+Use maven for install and run
 
 ## User for test:
 
