@@ -19,7 +19,7 @@ INSERT INTO "public"."usuarios" ("id", "username", "password") VALUES
 ```
 
 ## Contributing
-Add many DBs and connfigure applicationn.yaml tenants
+Add many DBs and connfigure application.yaml tenants
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
